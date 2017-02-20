@@ -3087,6 +3087,14 @@
 			background-color: rgba(0, 0, 0, 0.1);
 		}
 
+		.spotlights > section:nth-child(5) {
+			background-color: rgba(0, 0, 0, 0.03);
+		}
+
+		.spotlights > section:nth-child(6) {
+			background-color: rgba(0, 0, 0, 0.06);
+		}
+
 		.spotlights > section.inactive > .image:before, body.is-loading .spotlights > section > .image:before {
 			opacity: 1;
 		}
@@ -3253,7 +3261,7 @@
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			background-color: #904CE4;
 		}
 
 		.wrapper.style1-alt {
@@ -3261,7 +3269,7 @@
 		}
 
 		.wrapper.style2 {
-			background-color: #5052b5;
+			background-color: #573BBA;
 		}
 
 		.wrapper.style2-alt {
@@ -3269,7 +3277,7 @@
 		}
 
 		.wrapper.style3 {
-			background-color: #b74e91;
+			background-color: #FB53AA;
 		}
 
 		.wrapper.style3-alt {
@@ -3380,7 +3388,7 @@
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #5e42a6;
+		background-color: #904CE4;
 		cursor: default;
 		padding: 1.75em 2em;
 	}
