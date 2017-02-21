@@ -1622,7 +1622,7 @@
 	}
 
 	body {
-		background: #312450;
+		background: #281456;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -3277,7 +3277,7 @@
 		}
 
 		.wrapper.style3 {
-			background-color: #FB53AA;
+			background-color: #F95DAE;
 		}
 
 		.wrapper.style3-alt {
@@ -3542,7 +3542,7 @@
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #312450;
+		background: #281456;
 		cursor: default;
 		height: 100vh;
 		left: 0;
