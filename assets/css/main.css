@@ -3810,6 +3810,10 @@
 					max-width: 100%;
 				}
 
+				#sidebar nav.mobile-on {
+					display: none;
+				}
+
 		body.is-loading #sidebar > .inner {
 			opacity: 0;
 		}
@@ -3882,12 +3886,20 @@
 							background-color: #b74e91;
 						}
 
+						#sidebar nav.mobile-on {
+							display: none;
+						}
+
 		}
 
 		@media screen and (max-width: 736px) {
 
-			#sidebar {
+			#sidebar nav.mobile-off {
 				display: none;
+			}
+
+			#sidebar nav.mobile-on {
+				display: inherit;
 			}
 
 		}
