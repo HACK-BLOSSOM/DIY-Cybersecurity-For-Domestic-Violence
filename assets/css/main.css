@@ -3260,6 +3260,10 @@
 			background-color: #261c3e;
 		}
 
+		.wrapper.style0 {
+			background-color: #FFF;
+		}
+
 		.wrapper.style1 {
 			background-color: #904CE4;
 		}
@@ -3269,7 +3273,7 @@
 		}
 
 		.wrapper.style2 {
-			background-color: #573BBA;
+			background-color: #0093FF;
 		}
 
 		.wrapper.style2-alt {
@@ -3277,7 +3281,7 @@
 		}
 
 		.wrapper.style3 {
-			background-color: #F95DAE;
+			background-color: rgba(255,133,77,0.85);
 		}
 
 		.wrapper.style3-alt {
@@ -3892,10 +3896,10 @@
 
 	#welcome {
 		background-attachment: fixed;
-		background-image: url("images/intro.svg");
-		background-position: top right;
+		background-image: url("../../images/background-home.jpg");
+		background-position: center center;
+		background-size: 100% auto;
 		background-repeat: no-repeat;
-		background-size: 100% 100%;
 	}
 
 		#welcome p {
@@ -3924,4 +3928,12 @@
 				background-attachment: scroll;
 			}
 
+		}
+
+		.title-text {
+			color: rgba(255,75,227,0.901);
+		}
+
+		.title-subtext {
+			color: #4e4e4e;
 		}
